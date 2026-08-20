@@ -366,7 +366,7 @@ people.forEach((person) => {
   const century = Math.ceil(person.died / 100);
 
   createAndAddNewValue(person.name, newTableRow);
-  createAndAddNewValue(person.gender, newTableRow, 1);
+  createAndAddNewValue(person.sex, newTableRow, 1);
   createAndAddNewValue(person.born, newTableRow);
   createAndAddNewValue(person.died, newTableRow);
   createAndAddNewValue(age, newTableRow);
