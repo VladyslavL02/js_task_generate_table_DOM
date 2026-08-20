@@ -363,7 +363,7 @@ people.forEach((person) => {
   const newTableRow = document.createElement('tr');
 
   const age = person.died - person.born;
-  const century = Math.ceil(person.born / 100);
+  const century = Math.ceil(person.died / 100);
 
   createAndAddNewValue(person.name, newTableRow);
   createAndAddNewValue(person.gender, newTableRow, 1);
